@@ -1,4 +1,6 @@
-h3 Home
-- @users.each do |user|
-  p
-    | User: #{link_to user.name, user}
+h3 Map
+
+= gmaps("map_options" => {  "center_latitude" => -20.30148555739852, "center_longitude" => -70.16899108886719, "detect_location" => true, "center_on_user" => true, "zoom" => 6},"markers" => { "data" => @json })
+
+footer
+  = yield :scripts

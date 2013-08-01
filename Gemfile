@@ -16,6 +16,11 @@ gem 'rolify'
 gem 'simple_form'
 gem 'slim'
 gem 'thin'
+gem 'active_model_serializers'
+gem 'gmaps4rails'
+gem 'tweetstream'
+gem 'awesome_print'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :rbx]

@@ -1,8 +1,8 @@
 default: &default
-  consumer_key: 'pwrYKcnocXchd7uqzrxosw'
-  consumer_secret: 'pF0gRkLhnTicIynlr2dpertimTPyHhfPSpD4xSkBWAs'
-  oauth_token: '324803529-7jP4oKIVIh5YkHw1tYe5VZIWwDQimPWFoNkzj5zT'
-  oauth_token_secret: 'pJaeSAwfQPIKTMJwuRA5fAGuMvGgI7H6FeEjCqbyFY'
+  consumer_key: 'YOUR CONSUMER KEY'
+  consumer_secret: 'YOUR CONSMER SECRET'
+  oauth_token: 'YOUT OAUTH TOKEN'
+  oauth_token_secret: 'YOUT OAUTH TOKEN SECRET'
 
 development:
   <<: *default

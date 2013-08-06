@@ -1,0 +1,14 @@
+default: &default
+  consumer_key: 'pwrYKcnocXchd7uqzrxosw'
+  consumer_secret: 'pF0gRkLhnTicIynlr2dpertimTPyHhfPSpD4xSkBWAs'
+  oauth_token: '324803529-7jP4oKIVIh5YkHw1tYe5VZIWwDQimPWFoNkzj5zT'
+  oauth_token_secret: 'pJaeSAwfQPIKTMJwuRA5fAGuMvGgI7H6FeEjCqbyFY'
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default

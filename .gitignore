@@ -77,4 +77,4 @@ pickle-email-*.html
 /config/application.yml
 
 # Ignore twitter configuration
-/config/twitter.yml
+#/config/twitter.yml

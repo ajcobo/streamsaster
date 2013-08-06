@@ -21,6 +21,10 @@ gem 'gmaps4rails'
 gem 'tweetstream'
 gem 'awesome_print'
 
+#monitoring
+gem 'foreman'
+
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :rbx]

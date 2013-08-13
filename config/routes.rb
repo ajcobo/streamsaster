@@ -1,4 +1,7 @@
 Streamsaster::Application.routes.draw do
+  resources :custom_tweets
+
+
   resources :tweets
 
 

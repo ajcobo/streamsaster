@@ -1,0 +1,17 @@
+%h1 Listing custom_tweets
+
+%table
+  %tr
+    %th
+    %th
+    %th
+
+  - @custom_tweets.each do |custom_tweet|
+    %tr
+      %td= link_to 'Show', custom_tweet
+      %td= link_to 'Edit', edit_custom_tweet_path(custom_tweet)
+      %td= link_to 'Destroy', custom_tweet, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Custom tweet', new_custom_tweet_path

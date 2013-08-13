@@ -67,6 +67,7 @@ module SearchTask
       q = {lang: 'es', count: 1}
       if id = ::CustomTweet.where(query: word).last.native_id
         puts "yes"
+        #changeeee
         q.merge({id: id})
       else
         puts "no"

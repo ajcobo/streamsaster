@@ -82,6 +82,6 @@ task :scrap => :environment do
   job = ScrapTask::Job.new
   trap("SIGINT") { job.stop; ScrapTask.exit }
   ScrapTask.config do
-    job.stream [-70.16899108886719,-20.30148555739852,-70.08110046386719,-20.184879384574092] #Iquique
+    job.stream [-109.4548925,-56.5356109,-66.3828747,-17.497384] #Chile
   end
 end

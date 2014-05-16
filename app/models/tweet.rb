@@ -2,8 +2,7 @@ require 'tweetstream'
 
 class Tweet
   include Mongoid::Document
-  include Gmaps4rails::ActsAsGmappable
-
+  
   #Tweet
   field :native_id, type: String
   field :text, type: String

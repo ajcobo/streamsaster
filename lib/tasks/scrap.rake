@@ -68,7 +68,7 @@ module ScrapTask
           exclude_cached_status(status) do
             # We cannot use report_progress as the variable @count is not thread-safe. Performance
             # profiling is little bit more complex that that of the other 2 cases.
-            raw_tweet_to_tweet(status).save
+            raw_tweet_to_tweet(status)
           end
         end
       end  
